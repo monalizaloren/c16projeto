@@ -141,14 +141,7 @@ function blueBalloon() {
   blueB.add(blue);
 }
 
-function greenBalloon() {
-  var green = createSprite(0,Math.round(random(20, 370)), 10, 10);
-  green.addImage(green_balloonImage);
-  green.velocityX = 3;
-  green.lifetime = 150;
-  green.scale = 0.1;
-  greenB.add(green);
-}
+??????????????????????????
 
 function pinkBalloon() {
   var pink = createSprite(0,Math.round(random(20, 370)), 10, 10);
